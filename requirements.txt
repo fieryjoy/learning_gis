@@ -1,0 +1,10 @@
+pip>9
+matplotlib
+nose
+scipy
+ipython
+shapely
+rasterio
+fiona
+geopandas
+pycrs
