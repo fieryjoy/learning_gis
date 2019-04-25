@@ -3,7 +3,6 @@ from scipy import ndimage
 
 with rasterio.open("./data/clipped.tif") as data:
     f = data.read().astype('f4')
-
     blurred_f = ndimage.gaussian_filter(f, 3)
     filter_blurred_f = ndimage.gaussian_filter(blurred_f, 1)
 

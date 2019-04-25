@@ -2,5 +2,6 @@
 .cache
 .config
 .local
-data
 .bash_history
+data/clipped.tif
+data/sharpened.tif
