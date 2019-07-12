@@ -1,4 +1,4 @@
-This project tries to solve the challenge received from UP42.
+This project clips a part of an image and applies a filter on it.
 
 Please copy a valid tif in **data/original.tif**
 

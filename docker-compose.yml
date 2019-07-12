@@ -1,0 +1,11 @@
+version: '2.1'
+services:
+    gis:
+        image:
+            gis_image
+        build: 
+            context: .
+        volumes:
+            - .:/home/xxx/code
+        command: ["bash"]
+        network_mode: "host"

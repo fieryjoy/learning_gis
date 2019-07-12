@@ -1,7 +1,7 @@
 #!/bin/bash
 
-USER_HOME="/home/up42"
-IMAGE_NAME="up42/test"
+USER_HOME="/home/xxx"
+IMAGE_NAME="xxx/test"
 
 IMAGE_ID=$(docker images -f "reference=$IMAGE_NAME" -q)
 

@@ -3,5 +3,6 @@
 .config
 .local
 .bash_history
+env3
 data/clipped.tif
 data/sharpened.tif
