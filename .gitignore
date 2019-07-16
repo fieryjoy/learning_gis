@@ -6,4 +6,4 @@
 env3
 data/clipped.tif
 data/sharpened.tif
-.ipynb_checkpoints
+**.ipynb_checkpoints

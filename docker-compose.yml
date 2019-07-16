@@ -6,7 +6,10 @@ services:
         build: 
             context: .
         volumes:
-            - .:/home/xxx/code
+            - ./scripts:/home/xxx/code/scripts
+            - ../data:/home/xxx/code/data
+            - ./notebooks:/home/xxx/code/notebooks
+            - ./utils:/home/xxx/code/utils
         working_dir:
             "/home/xxx/code"
         command: ["bash"]

@@ -17,6 +17,7 @@ def getFeatures(gdf):
 #maxy = int(os.environ['COORD_MAXY'])
 #epsg = int(os.environ['EPSG'])
 
+
 with rasterio.open("./data/original.tif") as data:
     crs = data.crs
     bounds = data.bounds

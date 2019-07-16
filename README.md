@@ -2,18 +2,12 @@ This project clips a part of an image and applies a filter on it.
 
 Please copy a valid tif in **data/original.tif**
 
-There are two ways of running the container.
-
-1) Only using docker
-
-    The scripts will be run inside a docker container:
-
-    ```./launch_docker.sh```
-
-2) Using docker-compose
+Using docker-compose
 
     ```docker-compose run gis```
-
+    
+    ```cd scripts```
+    
     ```./install_requirements.sh```
     
     ```source env3/bin/activate```
